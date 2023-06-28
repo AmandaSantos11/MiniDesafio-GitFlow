@@ -12,7 +12,6 @@ public class Venda {
         this.listaProdutos = listaProdutos;
         this.totalCompra = totalCompra;
     }
-
     public Vendedor getVendedor() {
         return vendedor;
     }
@@ -44,4 +43,6 @@ public class Venda {
     public void setTotalCompra(double totalCompra) {
         this.totalCompra = totalCompra;
     }
+
+
 }
